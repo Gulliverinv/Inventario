@@ -1,0 +1,17 @@
+﻿@model List<Inventario.Models.Alumno>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista de Alumnos</h2>
+
+
+    @foreach (var alumno in Model)
+    {
+        <h1>
+            @alumno.Nombre
+        </h1>
+    }
+
+
+

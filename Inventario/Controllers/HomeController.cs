@@ -15,14 +15,14 @@ namespace Inventario.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Aplicación de pruebade MVC.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Gulliver.";
 
             return View();
         }
